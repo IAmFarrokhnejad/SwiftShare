@@ -3,6 +3,8 @@ mod dtos;
 mod models;
 mod error;
 mod db;
+mod utils;
+
 
 use config::Config;
 use db::DBClient;
