@@ -5,7 +5,6 @@ mod error;
 mod db;
 mod utils;
 
-
 use config::Config;
 use db::DBClient;
 use axum::http::{header::{ACCEPT, AUTHORIZATION, CONTENT_TYPE}, HeaderValue, Method};
