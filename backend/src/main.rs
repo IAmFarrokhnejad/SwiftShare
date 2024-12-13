@@ -5,6 +5,7 @@ mod error;
 mod db;
 mod utils;
 mod middleware;
+mod handler;
 
 use config::Config;
 use db::DBClient;
