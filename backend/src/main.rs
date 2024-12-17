@@ -6,6 +6,7 @@ mod db;
 mod utils;
 mod middleware;
 mod handler;
+mod router;
 
 use config::Config;
 use db::DBClient;
